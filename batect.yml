@@ -2,17 +2,8 @@ containers:
   build-env:
     image: jupyter/scipy-notebook #jupyter/datascience-notebook
     volumes:
-      - local: charts
+      - local: notebooks
         container: /home/jovyan/work
-        options: cached
-      - local: imported_data
-        container: /home/jovyan/work/imported_data
-        options: cached
-      - local: processed_data
-        container: /home/jovyan/work/processed_data
-        options: cached
-      - local: raw_data
-        container: /home/jovyan/work/raw_data
         options: cached
     ports:
       - local: 8888
