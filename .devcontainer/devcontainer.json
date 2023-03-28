@@ -9,7 +9,8 @@
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers-contrib/features/pre-commit:1": {},
 		"ghcr.io/devcontainers-contrib/features/pylint:1": {},
-		"ghcr.io/devcontainers/features/java:1": {}
+		"ghcr.io/devcontainers/features/java:1": {},
+		"ghcr.io/devcontainers/features/go:1": {}
 	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
