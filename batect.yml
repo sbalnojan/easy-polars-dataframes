@@ -5,6 +5,9 @@ containers:
       - local: notebooks
         container: /home/jovyan/work
         options: cached
+      - local: data
+        container: /home/jovyan/work/data
+        options: cached
     ports:
       - local: 8888
         container: 8888
